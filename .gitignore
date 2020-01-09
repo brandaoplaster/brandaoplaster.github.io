@@ -1,6 +1,5 @@
 .DS_Store
 node_modules
-/dist
 
 # local env files
 .env.local
@@ -41,7 +40,6 @@ yarn-error.log*
 # Recommended template: Node.gitignore
 
 node_modules/
-dist/
 npm-debug.log
 yarn-error.log
 
