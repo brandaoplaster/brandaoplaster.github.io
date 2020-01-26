@@ -1,45 +1,20 @@
 <template>
-    <div class="navigation-drawer">
-        <v-navigation-drawer clipped fixed v-model="drawer" inset app>
-            <v-list class="pa-0">
-                <v-list-tile avatar>
-                    <v-list-tile-avatar>
-                        <v-icon>mdi-account-circle</v-icon>
-                    </v-list-tile-avatar>
-                    <v-list-tile-content>
-                        <v-list-tile-title>
-                            Item 2
-                        </v-list-tile-title>
-                    </v-list-tile-content>
-                    <v-spacer></v-spacer>
-                    <v-list-tile-action-text>
-                        <v-btn small color="blue" fab @click.stop="drawer = !drawer">
-                            <v-icon class="white--text">fa fa-angle-double-left fa-3x</v-icon>
-                        </v-btn>
-                    </v-list-tile-action-text>
-                </v-list-tile>
-            </v-list>
-            <v-list class="pa-0">
-                <v-list-tile avatar>
-                    <v-list-tile-content>
-                        <v-list-tile-title>
-                            Item 1
-                        </v-list-tile-title>
-                    </v-list-tile-content>
-                </v-list-tile>
-            </v-list>
-            <v-toolbar flat>
-                <v-list-tile-action>
-                    <v-icon>mdi-view-dashboard</v-icon>
-                </v-list-tile-action>
-                <v-list-tile-content>
-                    <v-list-tile-title>
-                        Menu
-                    </v-list-tile-title>
-                </v-list-tile-content>
-            </v-toolbar>
-            <v-divider></v-divider>
-        </v-navigation-drawer>
+  <div class="column is-3 is-sidebar-menu is-hidden-mobile">
+      <aside class="menu">
+        <div class="header">
+          <div class="avatar">
+            <img class="is-rounded" src="https://randomuser.me/api/portraits/women/67.jpg" alt="">
+          </div>
+        </div>
+        <ul class="menu-list">
+          <li><a ref="home">Home</a></li>
+          <li><a ref="about">About</a></li>
+          <li><a ref="experience">Experience</a></li>
+          <li><a ref="education">Education</a></li>
+          <li><a ref="skill">Skill</a></li>
+          <li><a>Portfolio</a></li>
+        </ul>
+      </aside>
     </div>
 </template>
 
