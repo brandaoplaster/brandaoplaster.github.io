@@ -2,7 +2,7 @@
   <div id="app">
     <core-navbar></core-navbar>
     <core-view></core-view>
-    <core-footer></core-footer>
+    <!-- <core-footer></core-footer> -->
   </div>
 </template>
 
@@ -13,7 +13,7 @@ export default {
   components: {
     CoreNavbar: () => import('@/components/core/navbar'),
     CoreView: () => import('@/components/core/view'),
-    CoreFooter: () => import('@/components/core/footer'),
+    // CoreFooter: () => import('@/components/core/footer'),
   }
 }
 </script>

@@ -8,3 +8,14 @@
     </div>
   </section>
 </template>
+
+<script>
+export default {};
+</script>
+
+<style scoped>
+#home {
+  min-height: 100vh;
+  background-color: teal;
+}
+</style>

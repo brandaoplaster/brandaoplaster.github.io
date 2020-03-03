@@ -3,6 +3,9 @@
         <core-toolbar></core-toolbar>
         <div class="column is-main-content">
             <section-home></section-home>
+            <section-about></section-about>
+            <section-experience></section-experience>
+            <section-skill></section-skill>
         </div>
      </div>
 </template>
@@ -15,6 +18,8 @@
         components: {
             CoreToolbar: () => import('@/components/core/toolbar'),
             SectionHome: () => import('@/components/section/home'),
+            SectionAbout: () => import('@/components/section/about'),
+            SectionSkill: () => import('@/components/section/skill'),
         }  
     }
 </script>
