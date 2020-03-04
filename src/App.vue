@@ -1,8 +1,16 @@
 <template>
   <div id="app">
-    <core-navbar></core-navbar>
-    <core-view></core-view>
-    <!-- <core-footer></core-footer> -->
+    <div class="columns is-fullheight">
+      <core-navbar></core-navbar>
+      <core-view></core-view>
+      <core-toolbar></core-toolbar>
+      <div class="column is-main-content">
+          <section-home></section-home>
+          <section-about></section-about>
+          <section-experience></section-experience>
+          <section-skill></section-skill>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -13,7 +21,11 @@ export default {
   components: {
     CoreNavbar: () => import('@/components/core/navbar'),
     CoreView: () => import('@/components/core/view'),
-    // CoreFooter: () => import('@/components/core/footer'),
+    CoreToolbar: () => import('@/components/core/toolbar'),
+    SectionHome: () => import('@/components/section/home'),
+    SectionAbout: () => import('@/components/section/about'),
+    SectionExperience: () => import('@/components/section/experience'),
+    SectionSkill: () => import('@/components/section/skill'),
   }
 }
 </script>
