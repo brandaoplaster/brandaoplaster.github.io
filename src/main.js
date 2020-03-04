@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
+import router from './router/routers'
 import AOS from "aos"
 import './libs/buefy'
 
@@ -12,4 +13,5 @@ AOS.init({
 
 new Vue({
   render: h => h(App),
+  router,
 }).$mount('#app')
