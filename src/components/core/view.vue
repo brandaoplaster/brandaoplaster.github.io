@@ -19,6 +19,7 @@
             CoreToolbar: () => import('@/components/core/toolbar'),
             SectionHome: () => import('@/components/section/home'),
             SectionAbout: () => import('@/components/section/about'),
+            SectionExperience: () => import('@/components/section/experience'),
             SectionSkill: () => import('@/components/section/skill'),
         }  
     }

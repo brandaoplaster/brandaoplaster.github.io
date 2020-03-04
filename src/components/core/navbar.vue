@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar is-hidden-tablet is-hidden-desktop is-mobile">
+  <nav class="navbar is-hidden-tablet is-fixed-top is-hidden-desktop is-mobile">
     <div class="navbar-brand is-dark is-text-white">
       <a class="navbar-item" href="/index.html">Lucas.io</a>
 
