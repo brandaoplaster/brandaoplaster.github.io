@@ -2,8 +2,8 @@
   <div class="column is-3 is-sidebar-menu is-hidden-mobile toolbar">
       <aside class="menu">
         <div class="header">
-          <figure class="image is-128x128">
-            <img class="is-rounded" src="https://bulma.io/images/placeholders/128x128.png">
+          <figure class="image is-64x64">
+            <img class="is-rounded" alt="logo" src="../../../public/logo.png">
           </figure>
         </div>
         <nav class="stroke">
