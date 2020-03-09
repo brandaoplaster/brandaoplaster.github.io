@@ -4,7 +4,7 @@
       <core-navbar></core-navbar>
       <core-view></core-view>
       <core-toolbar></core-toolbar>
-      <div class="column is-main-content">
+      <div class="column is-main-content padding-right">
           <section-home></section-home>
           <section-about></section-about>
           <section-experience></section-experience>
@@ -37,5 +37,8 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+}
+.padding-right {
+  padding-right: 5px
 }
 </style>
