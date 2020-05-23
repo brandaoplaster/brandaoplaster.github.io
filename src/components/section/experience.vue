@@ -1,5 +1,5 @@
 <template>
-  <section class="hero home" id="home">
+  <section class="hero home" id="experience">
     <div class="hero-body">
       <div class="container">
         <h1 class="title">Experience</h1>
@@ -27,7 +27,7 @@ export default {};
 </script>
 
 <style scoped>
-#home {
+#experience {
   min-height: 100vh;
   background-color: tomato;
 }
